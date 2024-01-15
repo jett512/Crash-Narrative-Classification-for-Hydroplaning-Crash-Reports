@@ -12,5 +12,4 @@ result of the crash.
 
 Here the training data is labeled three severity types: O, C, and AB. These three classes all require a crash report
 to be filled out, as they meet one or more of the conditions for a report to be filed. Consideration for these classes
-follows Crash Reporting Manual (Colorado Department of Transportation., 2019) guidelines. The three classes are as
-follows:
+follows Crash Reporting Manual (Colorado Department of Transportation., 2019) guidelines. 
