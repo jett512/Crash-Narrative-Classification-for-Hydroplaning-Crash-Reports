@@ -1,0 +1,16 @@
+Safety in transportation is a critical concern, with over a substantial amount of fatalities on U.S. roads. While advancements in safety technologies have improved automobile safety, understanding and preventing accidents require in-depth research into contributing factors. This paper focuses on hydroplaning risks due to extreme rainfall, emphasizing the need for prioritized road design and traffic management. Analyzing crash severity is vital for improving road safety, implementing targeted measures, and developing effective educational programs. The challenge lies in dispersed information within crash reports, making manual examination time-consuming and inconsistent. Natural Language Processing (NLP), particularly Transformer models, offers a consistent and efficient approach. This study employs NLP techniques to classify crash reports, aiming to understand words contributing to severity. Despite inherent limitations, this approach facilitates extensive data analysis, revealing patterns and trends crucial for road safety. Three Transformer models—BERT, RoBERTa, and DistilBERT—are evaluated, considering performance metrics like accuracy, precision, recall, and F1-score. Results show a trade-off between model complexity and accuracy, with DistilBERT demonstrating competitive performance. Insights from Lime explainability tool shed light on significant words influencing predictions. The methodology presents a potential model for similar applications in diverse domains. The study's contribution extends beyond transportation, showcasing Transformer models as versatile tools for understanding and harnessing natural language. Evaluation metrics highlight model strengths and trade-offs, providing valuable insights for model refinement and generalization. This study concludes by emphasizing the importance of tailored interventions based on severity insights. Specific terms associated with severity levels become the basis for targeted measures, such as defensive driving campaigns, treatment awareness programs, and infrastructure improvements. The holistic approach, combining NLP technology and machine learning models, holds promise in significantly reducing accidents and fostering a safer transportation environment.
+
+Five years (2017-2021) of traffic crash data was obtained from the Ohio Depertment of Transportation. (n.d.).
+According to the Colorado Department of Transportation. (2019), a crash only needs to be reported if one or more of
+these conditions are met:
+• One or more parties involved were injured or killed because of the crash.
+• One or more parties involved did not have insurance.
+• One of the drivers specifically requested that a report be completed.
+• Any of the vehicles involved incurred $1,000 or more in damages to one or more of the involved parties as a
+result of the crash.
+• Drugs or alcohol suspected of being involved in the crash.
+
+Here the training data is labeled three severity types: O, C, and AB. These three classes all require a crash report
+to be filled out, as they meet one or more of the conditions for a report to be filed. Consideration for these classes
+follows Crash Reporting Manual (Colorado Department of Transportation., 2019) guidelines. The three classes are as
+follows:
